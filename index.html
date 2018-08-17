@@ -4,70 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="refresh" content="3">
     <title>Document</title>
-    <link rel="stylesheet" href="..assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
  <!-- Once a reset.css is used uncomment the following line to see how this stylesheet works-->
-    <!--embedded reset and normalize
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="normalize.css">    -->
+<!--embedded reset and normalize
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="normalize.css">    -->
 </head>
-<body>
-    <header
-        div class="box namebox">
-        <h1>Your Name</h1>
-        <div class="AboutPortfolioContact" >About | Portfolio | Contact
-        </div>
-    </header>
-    <section>
-        <h1>About Me</h1>
-        <div id="border"></div>
-        <img src"../assets/images/ReginaHeadshot.jpg" alt"Headshot">
-        <p>I'm half Russian and half Jewish. I grew up in Los Angeles with a widowed mother who didn't speak great English. Summer in Russia is awesome. </p>
-        <p>I spend a lot of time in college trying to figure out what career I wanted to pursue. A Master's Degree in Philosophy later, I'm still not entirely sure about my path. Last year, I graduated from a relationship coaching progam. Now I'm here learning web development.</p>
-        <p>I'm quite fond of being a mom, though for a bit, I wasn't sure how that was going to go. My ten-year-old is quite the magical creature. Married life is nice. I like getting back rubs. I finally convinced him to run half-marathons with me, though he refused to go for the full enchilada,which I run in Sacramento each December. We are crazy about traveling.</p>
-    </section>
+<header>
+    <div id="YourNameBox">Regina Karsh-Helsten</div>
 
+    <nav>
+    <ul>
+        <li class="navItem rightborder"><a  href="index.html">About  </a></li>
+        <li class="navItem rightborder"> <a href="portfolio.html">Portfolio  </a></li>
+            <li class="navItem"> <a href="contact">Contact</a></li>
+    </ul>
+</nav>
+   
+
+</header>
+<br>
+<body>
+<div class="wrapper">
+
+    <div class="container">
+
+        <h2>About Me</h2>
+        <hr>
+        <br>
+           <p><img src="./assets/images/headshot.jpg" alt="Headshot" width="280" height="350">I'm half Russian and half Jewish. I grew up in Los Angeles with a widowed mother who didn't speak much English, which pushed me to be assertive and outgoing. Summer in Russia is awesome. There was a forest behind my grandmother's neighborhood where I could get lost for hours visiting the zoo, the ducks in the swamp, and picking nuts and raspberries.</p>
+
+        <p>In college, I spend a lot of time trying to figure out what career I wanted to pursue. After about a decade in school, taking every class I wanted, I finally graduated with a Master's Degree in Philosophy later, I'm still not entirely sure about my path. Last year, I graduated from a relationship coaching progam. Now I'm here learning web development.</p>
+
+        <p>I'm quite fond of being a mom, though for a bit, I wasn't sure how that was going to go. My ten-year-old is quite the magical creature. Married life is nice. We are crazy about traveling. I like getting back rubs. I finally convinced my husband to run half-marathons with me, which we like to do in the mountains in the Bay Area. Every December, for my birthday, I run the California International Marathon. </p>
+    </div>
+
+    <div class="push"></div>
+</div>
+
+<div id="bottomBorder"></div>
 <!--make a sticky footer-->
-    <footer></footer>
+    <footer class="footer">Copyright &copy;</footer>
 </body>
 </html>
 
-<!-- In this assignment, you'll build a professional portfolio site using HTML/CSS. These instructions include a short style guide; follow it to design an aesthetically pleasing layout while creating different kinds of complex HTML elements. 
+<!-- 
 
-### Before You Begin
-
-* Welcome to your first opportunity as a front-end web designer. You will be advocating for your most important client—yourself! By making a portfolio, you'll take your first step toward building your web development brand.
-
-* This will be one of your harder assignments, if only because you're just getting your feet wet in web design. Trust us, though; it will get easier. Invest your time in this assignment, and it will pay dividends! 
-
-### Instructions
-
-1. Create a new repository in GitHub called `Basic-Portfolio`.
-
-2. Clone this repository to your computer using the process we went over in class.
-
-3. Navigate to the `Basic-Portfolio` folder that you just cloned onto your machine. Inside this folder, create the following: 
-
-   * 3 HTML documents: `index.html`, `contact.html` and `portfolio.html`.
-   * A folder called `assets`.
-   * Inside the assets directory, make two additional folders: `css` and `images`.
-     * In the `css` folder, make a file called `style.css`.
-     * In the `css` folder, make a file called `reset.css`, and include the code found from the Meyerweb reset located [here](http://meyerweb.com/eric/tools/css/reset/reset.css).
-     * In the `images` folder, save the images you plan on using (like your profile image, the placeholder images for the portfolio, and the social icon images).
-
-```
-├── assets
-|  ├── css
-|  |  ├── reset.css
-|  |  └── style.css
-|  └── images
-├── contact.html
-├── index.html
-└── portfolio.html
-```
-
-4. Push the above changes to GitHub. 
 
    * Make sure to `git add .` and `git commit -m "initial site files"`. Then type `git push origin master` to push your changes to your GitHub repo.
 
