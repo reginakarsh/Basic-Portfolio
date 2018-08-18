@@ -7,41 +7,50 @@
     <meta http-equiv="refresh" content="3">
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css">
-
- <!-- Once a reset.css is used uncomment the following line to see how this stylesheet works-->
-<!--embedded reset and normalize
-<link rel="stylesheet" href="reset.css">
-<link rel="stylesheet" href="normalize.css">    -->
 </head>
+
 <header>
     <div id="YourNameBox">Regina Karsh-Helsten</div>
 
     <nav>
-    <ul>
-        <li class="navItem rightborder"><a  href="index.html">About  </a></li>
-        <li class="navItem rightborder"> <a href="portfolio.html">Portfolio  </a></li>
+        <ul>
+            <li class="navItem rightborder"><a  href="index.html">About</a></li>
+            <li class="navItem rightborder"> <a href="portfolio.html">Portfolio</a></li>
             <li class="navItem"> <a href="contact">Contact</a></li>
-    </ul>
-</nav>
+        </ul>
+    </nav>
    
 
 </header>
 <br>
 <body>
-<div class="wrapper">
+    <div class="content">
+        <div class="wrapper">
 
-    <div class="container">
-
-        <h2>Contact</h2>
-        <hr>
-        <br>
+            <div class="container">
+             <form action="action_page.php"></form>
+                <h2>Contact</h2>
+                <hr>
+                <br>
+                 <form action="/action_page.php">
+                 Name<br>
+                <input class="oneLine" type="text" name="firstLast" value="John Smith">
+                 <br>
+                 <br>
+                 Email<br>
+                <input class="oneLine" type="text" name="email" value="example@gmail.com">
+                <br>
+                <br>
+                Message<br>
+                <input class="multiLine" type="text">
+                 <br><br>
+                <input class="submit" type="submit" value="Submit">
+                </form> 
+            </div>
+        </div>
     </div>
 
-    <div class="push"></div>
-</div>
-
-<div id="bottomBorder"></div>
-<!--make a sticky footer-->
-    <footer class="footer">Copyright &copy;</footer>
+<footer id="sticky">Copyright &copy;
+</footer>
 </body>
 </html>

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta http-equiv="refresh" content="3">
+    <!-- <meta http-equiv="refresh" content="3"> -->
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css">
 
@@ -17,12 +17,12 @@
     <div id="YourNameBox">Regina Karsh-Helsten</div>
 
     <nav>
-    <ul>
-        <li class="navItem rightborder"><a  href="index.html">About  </a></li>
-        <li class="navItem rightborder"> <a href="portfolio.html">Portfolio  </a></li>
-            <li class="navItem"> <a href="contact">Contact</a></li>
-    </ul>
-</nav>
+            <ul>
+                <li class="navItem rightborder"><a  href="index.html">About</a></li>
+                <li class="navItem rightborder"> <a href="portfolio.html">Portfolio</a></li>
+                <li class="navItem"> <a href="contact">Contact</a></li>
+            </ul>
+        </nav>
    
 
 </header>
@@ -34,14 +34,43 @@
 
         <h2>Portfolio</h2>
         <hr>
-        <br>
+        <!-- Portfolio Grid  got this from https://www.w3schools.com/howto/howto_css_portfolio_gallery.asp -->
+        <div class="row">
+            <div class = "column">
+                <div class="card">
+                    <img class="gallery-image" src="assets/images/hangman.jpg" alt="Hangman" style="width:100%">
+                    <div class="caption">Hangman</div>
+                </div>
+            </div>
+            <div class = "column"> 
+                <div  class="card">
+                        <img class="gallery-image" src="assets/images/rpg-game.jpg" alt="Hangman" style="width:100%">
+                        <div class="caption">RPG Game</div>
+                </div>
+            </div>
+            <div class = "column"> 
+                <div class="card">
+                        <img class="gallery-image" src="assets/images/trivia-game.jpg" alt="Hangman" style="width:100%">
+                        <div class="caption">Trivia Game</div>
+                </div>
+            </div>
+            <div class = "column"> 
+                <div class="card">
+                        <img class="gallery-image" src="assets/images/rutgers-info.jpg" alt="Hangman" style="width:100%">
+                        <div class="caption">Rutgers Info Widget</div>
+                </div>
+            </div>
+            <div class = column>
+                <div class="card">
+                        <img class="gallery-image" src="assets/images/rock-paper.jpg" alt="Hangman" style="width:100%">
+                        <div class="caption">Rock Paper Scissors</div>
+                </div>
+            </div>
+        </div>
     </div>
+</div>   
 
-    <div class="push"></div>
-</div>
-
-<div id="bottomBorder"></div>
-<!--make a sticky footer-->
-    <footer class="footer">Copyright &copy;</footer>
+<footer id="sticky">Copyright &copy;
+    </footer>
 </body>
 </html>
